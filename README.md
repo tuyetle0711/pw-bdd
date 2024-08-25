@@ -25,7 +25,7 @@ Example project that uses [playwright-bdd](https://github.com/vitalets/playwrigh
    npx playwright install
    ```
 
-5. Run tests
+5. 5. Run tests ``` npm test ``` npx bddgen npx playwright test features/demo/data-table.feature (Khi run test sẽ lưu cache test/ code mới chưa gen ra bdd nên cần phải gen bdd trước, sau đó run test)
    ```
    npm test
    ```
