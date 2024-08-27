@@ -2,7 +2,7 @@ Feature: Demo verify https://www.w3schools.com/
 
   Scenario: Search lesson
     Given user go to w3schools
-    When user search lesson with key "html" 
+    When user search lesson with key "html"
     Then verify lesson
 
   Scenario: Login use data table
@@ -24,3 +24,6 @@ Feature: Demo verify https://www.w3schools.com/
       | snow@gmail.com | test     | An unknown error has occurred.       |
       | snow@gmail.com |          | Please enter your email and password |
       |                | test     | Please enter your email and password |
+
+  Scenario: run cmd on windown/mac
+    Given I open cmd and run process
